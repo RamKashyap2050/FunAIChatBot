@@ -37,13 +37,14 @@ function App() {
     const footerHeight = 80; // Adjust as per your footer's height
     setContentHeight(`calc(100vh - ${headerHeight + footerHeight}px)`);
   }, []);
+
+  
   return (
     <div className="App">
       <h1>RK Assistant</h1>
       <div
       className="scrollable-content"
         style={{
-          marginLeft: "7.5rem",
           width: "80%",
           overflowY: "auto", // Makes the container scrollable
           marginBottom:"6rem",
